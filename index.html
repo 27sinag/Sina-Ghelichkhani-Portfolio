@@ -13,13 +13,14 @@
       <div class="dropdown">
         <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
-          <a href="#electric-scooter">Electric Scooter</a>
           <a href="#autonomous-drone">Autonomous Drone</a>
-          <a href="#robot-arm">Robot Arm - In Progress</a>
           <a href="#frc">FRC</a>
+          <a href="#robot-arm">Robot Arm - In Progress</a>
+          <a href="#electric-scooter">Electric Scooter</a>
           <a href="#keyboard">Keyboard</a>
           <a href="#cnc-projects">CNC Projects</a>
           <a href="#ball-balancing-robot">Ball Balancing Robot</a>
+          <a href="#nvidia-isaac-lab">Nvidia Isaac sim/lab</a>
           <a href="#polar-planimeter">Polar Planimeter</a>
           <a href="#h-shifter">H-shifter for Driving Simulator</a>
           <a href="#ionic-thruster">Ionic Thruster</a>
@@ -39,20 +40,6 @@
     </section>
 
     <section class="projects-grid">
-      <!-- Electric Scooter -->
-      <div class="project-card" id="electric-scooter" data-media='["Scooter 1.JPG", "Scooter Riding.mp4"]'>
-        <div class="project-image">
-          <img src="Scooter 1.JPG" alt="Electric Scooter">
-          <div class="hover-overlay">
-            <span class="click-message">Click to see other pictures</span>
-          </div>
-        </div>
-        <div class="project-content">
-          <h2>Electric Scooter</h2>
-          <p>An electric scooter I designed, welded, assembled, and wired made from waterjetted aluminum plates and welded together (Tig welding). The scooter is powered by a 350W 24V brushless motor and a 20 Ah battery with a top speed of 35Km/h or 22 mph.</p>
-        </div>
-      </div>
-
       <!-- Autonomous Drone -->
       <div class="project-card" id="autonomous-drone" data-media='["Drone 1.png", "Drone 2.png", "Drone Calculations.png", "DroneFlyingVideo.mp4"]'>
         <div class="project-image">
@@ -63,20 +50,9 @@
         </div>
         <div class="project-content">
           <h2>Autonomous Drone</h2>
-          <p>An autonomous drone that can fly both manually and autonomously (using similar technology to drones used for spraying pesticides on large fields). The drone's flight data is logged and stored in a database for later analysis.</p>
+          <p>An autonomous drone that can fly both manually and autonomously (using electronics similar to drones that spray pesticides on large fields). The drone's flight data is logged and stored in a database for later analysis.</p>
         </div>
       </div>
-
-        <!-- Robot Arm - In Progress (moved to 3rd position) -->
-        <div class="project-card" id="robot-arm" data-media='["Robot arm 1.png", "Robot arm 2.png", "Robot arm 3.png", "Robot arm 4.png"]'>
-          <div class="project-image">
-            <img src="Robot arm 1.png" alt="Robot Arm - In Progress">
-          </div>
-          <div class="project-content">
-            <h2>Robot Arm - In Progress</h2>
-            <p>A 5 DOF robot arm that I have designed and fabricated using a 3D printer and store-bought parts. The robot arm is trained in Nvidia's Isaac Lab to move to target positions and perform tasks. </p>
-          </div>
-        </div>
 
       <!-- FRC -->
       <div class="project-card" id="frc" data-media='["FRC 1.png", "FRC 2.png", "FRC 3.png", "FRC 4.png", "FRC 5.png"]'>
@@ -88,9 +64,38 @@
         </div>
         <div class="project-content">
           <h2>FRC</h2>
-          <p>First Robotics Team 8503 (Freshmen and Sophomores) and 4253 (Juniors and Seniors) that I have dedicated thousands of hours to throughout high school and have competed in the FRC World Championships and Regionals. I am a designer and fabricator on the team. </p>
+          <p>First Robotics Team 8503 (Freshmen and Sophomores) and 4253 (Juniors and Seniors) that I have dedicated thousands of hours to throughout high school and have competed in the FRC World Championships and Regionals. I hold lead positions in Mechanical systems, design, and fabrication on the team. I am also one of the team's competition drivers.</p>
         </div>
       </div>
+
+          <!-- Robot Arm - In Progress (moved to 3rd position) -->
+          <div class="project-card" id="robot-arm" data-media='["Robot arm 1.png", "Robot arm 2.png", "Robot arm 3.png", "Robot arm 4.png"]'>
+            <div class="project-image">
+              <img src="Robot arm 1.png" alt="Robot Arm - In Progress">
+              <div class="hover-overlay">
+                <span class="click-message">Click to see other pictures</span>
+              </div>
+            </div>
+          <div class="project-content">
+            <h2>Robot Arm - In Progress</h2>
+            <p>A 5 DOF robot arm that I have designed and fabricated using a 3D printer and store-bought parts (Motors, belts, pulleys, bearings, etc). The robot arm is trained in Nvidia's Isaac Lab to move to target positions and perform tasks. </p>
+          </div>
+        </div>
+
+      <!-- Electric Scooter -->
+      <div class="project-card" id="electric-scooter" data-media='["Scooter 1.JPG", "Scooter Riding.mp4"]'>
+        <div class="project-image">
+          <img src="Scooter 1.JPG" alt="Electric Scooter" style="transform: scale(1.1); object-position: center -200px;">
+          <div class="hover-overlay">
+            <span class="click-message">Click to see other pictures</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h2>Electric Scooter</h2>
+          <p>An electric scooter with a full suspension system I designed, welded, assembled, and wired from scratch. It is made from waterjetted aluminum plates and welded together (Tig welding). The scooter is powered by a 350W 24V brushless motor and a 20 Ah battery with a top speed of 35Km/h or 22 mph.</p>
+        </div>
+      </div>
+
 
       <!-- Keyboard -->
       <div class="project-card" id="keyboard" data-media='["Keyboard 1.0.png", "Keyboard 0.5.png"]'>
@@ -107,7 +112,7 @@
       </div>
 
       <!-- CNC Projects -->
-      <div class="project-card" id="cnc-projects" data-media='["CNC 0.5.png", "CNC 1.0.PNG", "CNC 2.png", "CNC 3.png", "CNC 4.png", "CNC 5.png", "CNC 6.png"]' data-split-view="true">
+      <div class="project-card" id="cnc-projects" data-media='["CNC 0.5.png", "CNC 1.0.PNG", "CNC 2.png", "CNC 3.png", "CNC 4.png", "CNC 5.png", "CNC 6.png", "CNC 7.png"]' data-split-view="true">
         <div class="project-image">
           <div class="split-image-container">
             <img src="CNC 0.5.png" alt="CNC 0.5" class="split-image-left">
@@ -137,10 +142,27 @@
         </div>
       </div>
 
+      <!-- Nvidia Isaac sim/lab -->
+      <div class="project-card" id="nvidia-isaac-lab" data-media='["Nvidia 1.PNG", "Nvidia 2.mp4"]'>
+        <div class="project-image">
+          <img src="Nvidia 1.PNG" alt="Nvidia Isaac">
+          <div class="hover-overlay">
+            <span class="click-message">Click to see other pictures</span>
+          </div>
+        </div>
+        <div class="project-content">
+          <h2>Nvidia Isaac sim/lab</h2>
+          <p>I have trained and visualized robotic movements in Nvidia isaac lab for pick-and-place and walking/crawling movement.</p>
+        </div>
+      </div>
+
       <!-- Polar Planimeter -->
       <div class="project-card" id="polar-planimeter" data-media='["Polar Planimeter 1.png"]'>
         <div class="project-image">
           <img src="Polar Planimeter 1.png" alt="Polar Planimeter">
+          <div class="hover-overlay">
+            <span class="click-message">Click to see other pictures</span>
+          </div>
         </div>
         <div class="project-content">
           <h2>Polar Planimeter</h2>
@@ -206,9 +228,12 @@
       </div>
 
       <!-- Computer Cooling Fan -->
-      <div class="project-card" id="computer-cooling-fan" data-media='["Fan 1.PNG"]'>
+      <div class="project-card" id="computer-cooling-fan" data-media='["Fan 1.PNG", "Fan 2.mp4"]'>
         <div class="project-image">
           <img src="Fan 1.PNG" alt="Computer Cooling Fan">
+          <div class="hover-overlay">
+            <span class="click-message">Click to see other pictures</span>
+          </div>
         </div>
         <div class="project-content">
           <h2>Computer Cooling Fan</h2>
@@ -220,6 +245,9 @@
       <div class="project-card" id="models" data-media='["Models 1.png"]'>
         <div class="project-image">
           <img src="Models 1.png" alt="Models">
+          <div class="hover-overlay">
+            <span class="click-message">Click to see other pictures</span>
+          </div>
         </div>
         <div class="project-content">
           <h2>Models</h2>
