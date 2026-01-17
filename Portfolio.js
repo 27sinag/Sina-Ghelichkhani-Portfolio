@@ -26,14 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
       try {
         const media = JSON.parse(mediaData);
         
-        // Show hover overlay if there are multiple media items (even if some are placeholders)
-        if (media.length > 1) {
-          const hoverOverlay = card.querySelector('.hover-overlay');
-          if (hoverOverlay) {
-            hoverOverlay.style.display = 'flex';
-          }
-        }
-        
+        // All projects with hover-overlay element and media will show the overlay on hover
         if (media.length > 0) {
           const hasSplit = card.getAttribute('data-split-view') === 'true';
           card.addEventListener('click', () => {
@@ -310,4 +303,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-
